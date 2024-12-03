@@ -1,3 +1,5 @@
+package day1;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import static java.lang.System.out;
@@ -14,7 +16,7 @@ public class day1 {
         //File setup
         List<Integer> left = new ArrayList<>();
         List<Integer> right = new ArrayList<>();
-        File in = new File("inputday1.text");
+        File in = new File("day1/inputday1.text");
         try (Scanner fr = new Scanner(in)) {
                 while(fr.hasNextLine()) {
                     String line = fr.nextLine();
